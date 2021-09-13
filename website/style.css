@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+    /* padding-left: 20vw; */
+    /* padding-right: 20vw; */
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+    width: 60vw;
+    margin: auto;
+}
+
+.nav h1 {
+    font-weight: 700;
+    letter-spacing: -0.03em;
+}
+
+.nav span {
+    font-size: 17px;
+    background-color: #4A4AFF;
+    padding: 4px 15px;
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
+    border-radius: 30px;
+    height: 26px !important;
+    max-height: 26px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.nav div {
+    display: flex;
+    align-items: center;
+}
+
+.nav div img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.introduction {
+    width: 60vw;
+    margin: auto;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: transparent;
+    margin-bottom: 25vh;
+}
+
+.introduction img {
+    transform: translateY(25px);
+}
+
+.introduction h1 {
+    line-height: 55px;
+    font-size: 50px;
+}
+
+.introduction hr {
+    position: absolute;
+    right: 0;
+    left: 0;
+    border: none;
+    height: 5px;
+    width: 80vwx;
+    background-color: #111;
+    bottom: 0;
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #111;
+    border: 5px solid transparent;
+    border-radius: 9px;
+    background-clip: content-box;
+}
+
+.how-div {
+    width: 80vw;
+    margin: auto;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: transparent;
+    margin-bottom: 10vh;
+    margin-top: 15vh;
+}
+
+.how-div h1 {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+
+.how-div img {
+    width: 300px;
+    margin-top: 30px;
+    transform: translateY(-40px);
+}
+
+.how-div div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: fle; */
+}
+
+.how-div div h2 {
+    margin: 0;
+}
+
+.how-div div p {
+    margin: 0;
+}
+
+.how-one {
+    width: 70vw;
+    padding-top: 30px;
+}
+
+.how-one div {
+    width: 40%;
+}
+
+button {
+    font-size: 17px;
+    background-color: #4A4AFF;
+    padding: 4px 15px;
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
+    border-radius: 30px;
+    /* height: 32px !important; */
+    /* max-height: 26px; */
+    cursor: pointer;
+    user-select: none;
+    width: fit-content;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.how-div div button {
+    margin-top: 20px;
+}
+
+.outro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+
+.outro span {
+    font-size: 100px;
+    font-weight: 300;
+}
+
+a {
+    color: #4A4AFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
