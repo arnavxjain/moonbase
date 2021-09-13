@@ -5,4 +5,4 @@
 </p>
 
 > This app is under development. Contact <a href="https://arnavjain.in">Arnav Jain</a> for more information.
-> Or find out more about the application on <a href="https://moonbase-arrival.netlify.app">it's website</a>."# moonbase" 
+> Or find out more about the application on <a href="https://moonbase-arrival.netlify.app">it's website</a>.
